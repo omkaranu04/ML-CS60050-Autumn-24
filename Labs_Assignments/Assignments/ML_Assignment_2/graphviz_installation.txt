@@ -1,0 +1,35 @@
+Install graphviz:
+
+Windows:
+
+1. Download the Graphviz installer from the Graphviz official website: https://graphviz.gitlab.io/_pages/Download/Download_windows.html
+
+2. Follow the installation instructions.
+
+3. Add the bin directory to your system's PATH environment variable.
+
+Then install the Python package:
+
+pip install graphviz
+
+macOS:
+
+1. You can use Homebrew to install Graphviz:
+
+brew install graphviz
+
+2. Then install the Python package:
+
+pip install graphviz
+
+Linux:
+
+1. Go to terminal and execute the below command:
+
+sudo apt-get install graphviz
+
+2. Then install the Python package:
+
+pip install graphviz
+
+

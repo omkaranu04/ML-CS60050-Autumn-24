@@ -1,0 +1,7 @@
+*.zip
+*.csv
+ML_A2_22CS30016/
+Omkar_22CS30016/
+__pycache__/
+.ipynb_checkpoints
+*.pyc

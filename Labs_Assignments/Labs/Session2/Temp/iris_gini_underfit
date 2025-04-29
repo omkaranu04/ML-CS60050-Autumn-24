@@ -1,0 +1,9 @@
+digraph Tree {
+    node [shape=box, style="filled", color="lightgrey"];
+    edge [fontname="helvetica"];
+    2818108402944 [label="petal length (cm) <= 1.9\ngini = 0.664\nsamples = 75\nvalue = [23, 28, 24]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108402944 -> 2818108404160;
+    2818108404160 [label="leaf node: class=setosa\nsamples = 23\nvalue = [23, 0, 0]\nclass = setosa", shape="box", style="filled", color="#c5e3ff"];
+    2818108402944 -> 2818108458752;
+    2818108458752 [label="leaf node: class=versicolor\nsamples = 52\nvalue = [0, 28, 24]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+}

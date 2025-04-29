@@ -1,0 +1,25 @@
+digraph Tree {
+    node [shape=box, style="filled", color="lightgrey"];
+    edge [fontname="helvetica"];
+    2818108406528 [label="petal length (cm) <= 1.9\ngini = 0.664\nsamples = 75\nvalue = [23, 28, 24]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108406528 -> 2818108405568;
+    2818108405568 [label="leaf node: class=setosa\nsamples = 23\nvalue = [23, 0, 0]\nclass = setosa", shape="box", style="filled", color="#c5e3ff"];
+    2818108406528 -> 2818108403008;
+    2818108403008 [label="petal width (cm) <= 1.7\ngini = 0.497\nsamples = 52\nvalue = [0, 28, 24]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108403008 -> 2818108459840;
+    2818108459840 [label="petal length (cm) <= 5.1\ngini = 0.180\nsamples = 30\nvalue = [0, 27, 3]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108459840 -> 2818107151232;
+    2818107151232 [label="sepal length (cm) <= 4.9\ngini = 0.128\nsamples = 29\nvalue = [0, 27, 2]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818107151232 -> 2818108406784;
+    2818108406784 [label="leaf node: class=versicolor\nsamples = 2\nvalue = [0, 1, 1]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818107151232 -> 2818108120576;
+    2818108120576 [label="leaf node: class=versicolor\nsamples = 27\nvalue = [0, 26, 1]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818108459840 -> 2818108404992;
+    2818108404992 [label="leaf node: class=virginica\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+    2818108403008 -> 2818108405888;
+    2818108405888 [label="petal length (cm) <= 4.8\ngini = 0.087\nsamples = 22\nvalue = [0, 1, 21]\nclass = virginica", style="filled", color="#b8ffa9"];
+    2818108405888 -> 2818108394944;
+    2818108394944 [label="leaf node: class=versicolor\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818108405888 -> 2818108400704;
+    2818108400704 [label="leaf node: class=virginica\nsamples = 21\nvalue = [0, 0, 21]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+}

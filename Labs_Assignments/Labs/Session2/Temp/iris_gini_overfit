@@ -1,0 +1,37 @@
+digraph Tree {
+    node [shape=box, style="filled", color="lightgrey"];
+    edge [fontname="helvetica"];
+    2818108459136 [label="petal length (cm) <= 1.9\ngini = 0.664\nsamples = 75\nvalue = [23, 28, 24]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108459136 -> 2818107151040;
+    2818107151040 [label="leaf node: class=setosa\nsamples = 23\nvalue = [23, 0, 0]\nclass = setosa", shape="box", style="filled", color="#c5e3ff"];
+    2818108459136 -> 2818108288128;
+    2818108288128 [label="petal width (cm) <= 1.7\ngini = 0.497\nsamples = 52\nvalue = [0, 28, 24]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108288128 -> 2818108395136;
+    2818108395136 [label="petal length (cm) <= 5.1\ngini = 0.180\nsamples = 30\nvalue = [0, 27, 3]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108395136 -> 2818107149824;
+    2818107149824 [label="sepal length (cm) <= 4.9\ngini = 0.128\nsamples = 29\nvalue = [0, 27, 2]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818107149824 -> 2818108408704;
+    2818108408704 [label="sepal width (cm) <= 2.4\ngini = 0.500\nsamples = 2\nvalue = [0, 1, 1]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818108408704 -> 2818099024896;
+    2818099024896 [label="leaf node: class=versicolor\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818108408704 -> 2818107151552;
+    2818107151552 [label="leaf node: class=virginica\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+    2818107149824 -> 2819122278080;
+    2819122278080 [label="sepal width (cm) <= 2.2\ngini = 0.071\nsamples = 27\nvalue = [0, 26, 1]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2819122278080 -> 2818107150656;
+    2818107150656 [label="sepal length (cm) <= 5.0\ngini = 0.500\nsamples = 2\nvalue = [0, 1, 1]\nclass = versicolor", style="filled", color="#b8ffa9"];
+    2818107150656 -> 2818107390720;
+    2818107390720 [label="leaf node: class=versicolor\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818107150656 -> 2818108292224;
+    2818108292224 [label="leaf node: class=virginica\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+    2819122278080 -> 2818107150976;
+    2818107150976 [label="leaf node: class=versicolor\nsamples = 25\nvalue = [0, 25, 0]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818108395136 -> 2817526422080;
+    2817526422080 [label="leaf node: class=virginica\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+    2818108288128 -> 2818108396992;
+    2818108396992 [label="petal length (cm) <= 4.8\ngini = 0.087\nsamples = 22\nvalue = [0, 1, 21]\nclass = virginica", style="filled", color="#b8ffa9"];
+    2818108396992 -> 2818108409024;
+    2818108409024 [label="leaf node: class=versicolor\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor", shape="box", style="filled", color="#c5e3ff"];
+    2818108396992 -> 2818108459520;
+    2818108459520 [label="leaf node: class=virginica\nsamples = 21\nvalue = [0, 0, 21]\nclass = virginica", shape="box", style="filled", color="#c5e3ff"];
+}
